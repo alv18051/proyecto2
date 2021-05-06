@@ -41,12 +41,13 @@ public class AVL {
             raíz.ordenado(); 
     } 
 }
-public class Ejecutar { 
-    public static void main(String []args){ 
-        AVL árbol = new AVL (); 
-        árbol.insertar("Breaking Bad"); 
-        árbol.insertar("Arrow"); 
-        árbol.insertar("Game of Thrones"); 
-        árbol.visualizar(); 
+public class Ejecutar {
+    public static void main(String[]args){
+        AVL árbol = new AVL();
+        árbol.insertar("Master of puppets");
+        árbol.insertar("Mesa que mas aplauda");
+        árbol.insertar("Humble");
+        árbol.visualizar();
     } 
+    
 }
