@@ -1,0 +1,15 @@
+public class Recomendaciones { 
+    int numSeries; 
+    Nodo izq, der; 
+    public Nodo(int ser){ 
+        numSeries = ser; 
+        izq = der = null; 
+    } 
+    public void ordenado(){ 
+        if(izq != null) 
+            izq.ordenado(); 
+        System.out.println("Series que hay: " +numSeries); 
+        if(der != null) 
+            der.ordenado(); 
+    } 
+}
